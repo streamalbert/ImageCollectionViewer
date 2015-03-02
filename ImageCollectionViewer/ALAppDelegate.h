@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ALAppDelegate.h
 //  ImageCollectionViewer
 //
 //  Created by Weichuan Tian on 3/1/15.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ALAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 
 @end
-

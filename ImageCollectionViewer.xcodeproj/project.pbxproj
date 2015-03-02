@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		130952471AA4379800686902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 130952461AA4379800686902 /* main.m */; };
-		1309524A1AA4379800686902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 130952491AA4379800686902 /* AppDelegate.m */; };
 		1309524D1AA4379800686902 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1309524C1AA4379800686902 /* ViewController.m */; };
 		130952521AA4379900686902 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130952511AA4379900686902 /* Images.xcassets */; };
 		130952611AA4379900686902 /* ImageCollectionViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 130952601AA4379900686902 /* ImageCollectionViewerTests.m */; };
+		131243651AA439C500DD117B /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 131243641AA439C500DD117B /* ALAppDelegate.m */; };
 		4B89AD3481F5C1B254F072A3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB00E0A803A987343613B7E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -29,14 +29,14 @@
 		130952411AA4379800686902 /* ImageCollectionViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCollectionViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		130952451AA4379800686902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		130952461AA4379800686902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		130952481AA4379800686902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		130952491AA4379800686902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1309524B1AA4379800686902 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1309524C1AA4379800686902 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		130952511AA4379900686902 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1309525A1AA4379900686902 /* ImageCollectionViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCollectionViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1309525F1AA4379900686902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		130952601AA4379900686902 /* ImageCollectionViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewerTests.m; sourceTree = "<group>"; };
+		131243631AA439C500DD117B /* ALAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAppDelegate.h; sourceTree = "<group>"; };
+		131243641AA439C500DD117B /* ALAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
 		8C7A3A796D4B5B5A7500CAFE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AB45084A877A26202E1EB5B1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ABB00E0A803A987343613B7E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +93,8 @@
 		130952431AA4379800686902 /* ImageCollectionViewer */ = {
 			isa = PBXGroup;
 			children = (
-				130952481AA4379800686902 /* AppDelegate.h */,
-				130952491AA4379800686902 /* AppDelegate.m */,
+				131243631AA439C500DD117B /* ALAppDelegate.h */,
+				131243641AA439C500DD117B /* ALAppDelegate.m */,
 				1309524B1AA4379800686902 /* ViewController.h */,
 				1309524C1AA4379800686902 /* ViewController.m */,
 				130952511AA4379900686902 /* Images.xcassets */,
@@ -271,8 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1309524D1AA4379800686902 /* ViewController.m in Sources */,
-				1309524A1AA4379800686902 /* AppDelegate.m in Sources */,
 				130952471AA4379800686902 /* main.m in Sources */,
+				131243651AA439C500DD117B /* ALAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

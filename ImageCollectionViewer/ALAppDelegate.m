@@ -1,18 +1,18 @@
 //
-//  AppDelegate.m
+//  ALAppDelegate.m
 //  ImageCollectionViewer
 //
 //  Created by Weichuan Tian on 3/1/15.
 //  Copyright (c) 2015 Weichuan Tian. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "ALAppDelegate.h"
 
-@interface AppDelegate ()
+@interface ALAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation ALAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
