@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1318D03C1AA3E9E100F93FA0"
+               BlueprintIdentifier = "130952401AA4379800686902"
                BuildableName = "ImageCollectionViewer.app"
                BlueprintName = "ImageCollectionViewer"
                ReferencedContainer = "container:ImageCollectionViewer.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1318D0581AA3E9E200F93FA0"
+               BlueprintIdentifier = "130952591AA4379900686902"
                BuildableName = "ImageCollectionViewerTests.xctest"
                BlueprintName = "ImageCollectionViewerTests"
                ReferencedContainer = "container:ImageCollectionViewer.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1318D0581AA3E9E200F93FA0"
+               BlueprintIdentifier = "130952591AA4379900686902"
                BuildableName = "ImageCollectionViewerTests.xctest"
                BlueprintName = "ImageCollectionViewerTests"
                ReferencedContainer = "container:ImageCollectionViewer.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1318D03C1AA3E9E100F93FA0"
+            BlueprintIdentifier = "130952401AA4379800686902"
             BuildableName = "ImageCollectionViewer.app"
             BlueprintName = "ImageCollectionViewer"
             ReferencedContainer = "container:ImageCollectionViewer.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1318D03C1AA3E9E100F93FA0"
+            BlueprintIdentifier = "130952401AA4379800686902"
             BuildableName = "ImageCollectionViewer.app"
             BlueprintName = "ImageCollectionViewer"
             ReferencedContainer = "container:ImageCollectionViewer.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1318D03C1AA3E9E100F93FA0"
+            BlueprintIdentifier = "130952401AA4379800686902"
             BuildableName = "ImageCollectionViewer.app"
             BlueprintName = "ImageCollectionViewer"
             ReferencedContainer = "container:ImageCollectionViewer.xcodeproj">
